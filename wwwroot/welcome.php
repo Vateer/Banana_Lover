@@ -1,2 +1,0 @@
-<?php require_once './source/class/class_core.php';$discuz = & discuz_core::instance();$discuz->init();include_once libfile('function/cache');updatecache();?>您已经成功安装ComsenzEXP! HTTP端口是81  MySQL端口是3306 <br>您的 Discuz! X3 访问地址是 <a href='http://127.0.0.1:81/'>http://127.0.0.1:81/</a> <br>管理员用户名为 admin , 密码是 123456 
-如果在使用中修改了管理员密码，又不记得密码是什么了，可以通过ComsenzEXP控制中心重置密码。<br>如果您选择了 phpMyAdmin 组件，访问地址是<a href='http://127.0.0.1:81/phpmyadmin'>http://127.0.0.1:81/phpmyadmin</a>    root密码是11111111 <br>祝您使用愉快!

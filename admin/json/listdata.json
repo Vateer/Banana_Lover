@@ -1,0 +1,27 @@
+{
+	"list": [{
+		"value": "1",
+		"text": "option1"
+	}, {
+		"value": "2",
+		"text": "option2"
+	}, {
+		"value": "3",
+		"text": "option3"
+	}, {
+		"value": "4",
+		"text": "option4"
+	}, {
+		"value": "5",
+		"text": "option5"
+	}, {
+		"value": "6",
+		"text": "option6"
+	}, {
+		"value": "7",
+		"text": "option7"
+	}, {
+		"value": "8",
+		"text": "option8"
+	}]
+}

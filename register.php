@@ -28,10 +28,11 @@ if(isset($_POST['submit'])){
 			<label>用户名：<input type="text" name="name" /><span>*用户名含有禁用字符，请选择其他用户名</span></label>
 			<label>密码：<input type="password" name="pw"  /><span>*用户名含有禁用字符，请选择其他用户名</span></label>
 			<label>确认密码：<input type="password" name="confirm_pw"/><span>*用户名含有禁用字符，请选择其他用户名</span></label>
-			<label>验证码：<input name="vcode" name="vocode" type="text"  /><span>*请输入下方验证码</span></label>
+			<label>验证码：<input name="vcode" type="text"  /><span>*请输入下方验证码</span></label>
 			<img class="vcode" src="show_code.php" />
 			<div style="clear:both;"></div>
 			<input class="btn" name="submit" type="submit" value="确定注册" />
 		</form>
 	</div>
-	<?php include 'inc/footer.inc.php'?>
+
+<?php include 'inc/footer.inc.php'?>

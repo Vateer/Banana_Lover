@@ -10,7 +10,7 @@ $member_id=is_login($link);
 	<div id="hot" class="auto">
 		<div class="title">I Believe</div>
 		<ul class="newlist">
-			<li>Good things will happen eventually!</li>
+			<li>my kind teacher will give us a high mark</li>
 			
 		</ul>
 		<div style="clear:both;"></div>

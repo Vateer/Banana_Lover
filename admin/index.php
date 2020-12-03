@@ -77,7 +77,7 @@ $count_manage=num($link,$query);
                     </div>
                     
                     <span class='memberinfo_span'>
-                       欢迎 <a href="index.php">且听风吟</a>
+                       欢迎 <a href="index.php"><?php echo $_SESSION['manage']['name']?></a>
                    </span>
                 <span>
                     <a href="logout.php">登出</a>
@@ -280,7 +280,7 @@ $count_manage=num($link,$query);
                      </div><!--end bg_wrapper-->
                      
                 <div id="footer" style="color: #fff;text-align: center">
-                TRY YOUR BEST!!!<a href="https://bealright.github.io/" target="_blank" title="且听风吟">且听风吟</a>
+ 
                 </div><!--end footer-->
                 
         </div><!-- end top -->

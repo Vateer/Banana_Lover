@@ -40,7 +40,7 @@
                         
 </div><!--end bg_wrapper-->
 <div id="footer" style="color: #fff;text-align: center">
-                TRY YOUR BEST!!!<a href="https://bealright.github.io/" target="_blank" title="且听风吟">且听风吟</a>
+               
                 </div><!--end footer-->
                 
         </div><!-- end top -->

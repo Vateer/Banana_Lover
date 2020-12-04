@@ -31,7 +31,7 @@ $data_info=mysqli_fetch_assoc($result_info);
 				</form>
 			</div>
 			<div class="nav">
-				<a href="music.php" class="hover">音乐</a>
+				
 			</div>
 			<div class="login">
 			<?php 

@@ -37,7 +37,7 @@ $data_info=mysqli_fetch_assoc($result_info);
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8" />
-<title><?php echo $data_son['module_name']?> - <?php echo $data_info['title']?></title>
+<title><?php echo $data_son['module_name']?></title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <link rel="stylesheet" type="text/css" href="style/public.css" />

@@ -7,7 +7,7 @@ $data_info=mysqli_fetch_assoc($result_info);
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8" />
-<title><?php echo $template['title']?> - <?php echo $data_info['title']?></title>
+<title><?php echo $template['title']?> </title>
 <meta name="keywords" content="<?php echo $data_info['keywords']?>" />
 <meta name="description" content="<?php echo $data_info['description']?>" />
 <link rel="stylesheet" type="text/css" href="style/public.css" />

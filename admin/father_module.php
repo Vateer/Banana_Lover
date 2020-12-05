@@ -53,7 +53,7 @@ $html=<<<A
               <tr>
                 <td><input class="sort" type="text" name="sort[{$data['id']}]" value="{$data['sort']}" /></td>
                 <td>{$data['module_name']}[id:{$data['id']}]</td>
-                <td>且听风吟</td>
+                <td>暨南大学</td>
                 <td><a href="#">[访问]</a>&nbsp;&nbsp;<a href="father_module_update.php?id={$data['id']}">[编辑]</a>&nbsp;&nbsp;<a href="$delete_url">[删除]</a></td>
              </tr>
 A;

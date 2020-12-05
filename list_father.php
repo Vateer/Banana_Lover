@@ -72,7 +72,7 @@ $count_today=num($link,$query);
 <body>
 	<div class="header_wrap">
 		<div id="header" class="auto">
-			<div class="logo">且听风吟</div>
+			<div class="logo">暨南大学</div>
 			<div class="nav">
 				<a class="hover">首页</a>
 			</div>

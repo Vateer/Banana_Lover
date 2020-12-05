@@ -213,7 +213,7 @@ $count_manage=num($link,$query);
                                        <td><?php echo SUB_URL?></td>
                                    </tr>
                                    <tr>
-                                       <th class="specalt">程序作者：且听风吟</th>
+                                       <th class="specalt">程序作者：暨南大学</th>
                                        <td>作者喜欢旅游，是个吃货</td>
                                    </tr>
                                </table>

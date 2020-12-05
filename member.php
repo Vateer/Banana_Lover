@@ -51,37 +51,7 @@ $count_all=num($link,$query);
 </style>
 </head>
 <body>
-	<div class="header_wrap">
-		<div id="header" class="auto">
-			<div class="logo">暨南大学</div>
-			<div class="nav">
-				<a href="index.php"class="hover">首页</a>
-			</div>
-			<div class="serarch">
-				<form>
-					<input class="keyword" type="text" name="keyword" placeholder="搜索其实很简单" />
-					<input class="submit" type="submit" name="submit" value="" />
-				</form>
-			</div>
-			<div class="login">
-            <?php 
-			$link=connect();
-				if(is_login($link)){
-$str=<<<A
-<a href="member.php?id={$member_id}" target="_blank">您好！{$_COOKIE['bbs']['name']}</a><span style="color:#fff;"> |</span> <a href="logout.php">退出</a>
-A;
-					echo $str;		
-				}else{
-$str=<<<A
-					<a href="login.php">登录</a>&nbsp;
-					<a href="register.php">注册</a>
-A;
-					echo $str;
-				}
-				?>
-			</div>
-		</div>
-	</div>
+	<?php include 'inc/header.inc.php'?>
 	<div style="margin-top:55px;"></div>
 	<div id="position" class="auto">
 		<a href="index.php">首页</a> &gt; <?php echo $data_member['name']?>

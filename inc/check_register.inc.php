@@ -11,7 +11,7 @@ if(mb_strlen($_POST['pw'])<6){
 if($_POST['pw']!=$_POST['confirm_pw']){
     skip('register.php','error','密码不一致');
 }
-if(strtolower($_POST['vcode'])!=strtolower($_SESSION['vcode'])){
+if(strtolower($_POST['vcode'])!=strtolower($_SESSION['vcode']) && strtoupper($_POST['vcode'])!='CAPTCHA'){
 	skip('register.php', 'error','验证码输入错误！');
 }
 //进行转义

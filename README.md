@@ -41,7 +41,7 @@ Xiao Li is a member of the Student Union. In order to understand the students' e
 
 ## Features from the product vision
 ### A feature that allow people to communicate freely in BBS
-### A feature that could upload attachments and download
+### A feature that allow people to search in BBS
 ### A feature that log in and register
 
 ## Features from scenario

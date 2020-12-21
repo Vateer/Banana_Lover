@@ -23,11 +23,11 @@ if(isset($_POST['submit'])){
 ?>
 <?php include 'inc/header.inc.php'?>
 	<div id="register" class="auto">
-		<h2>欢迎注册成为 私房库会员</h2>
+		<h2>欢迎注册</h2>
 		<form  method="post">
-			<label>用户名：<input type="text" name="name" /><span>*用户名含有禁用字符，请选择其他用户名</span></label>
-			<label>密码：<input type="password" name="pw"  /><span>*用户名含有禁用字符，请选择其他用户名</span></label>
-			<label>确认密码：<input type="password" name="confirm_pw"/><span>*用户名含有禁用字符，请选择其他用户名</span></label>
+			<label>用户名：<input type="text" name="name" /><span></span></label>
+			<label>密码：<input type="password" name="pw"  /><span></span></label>
+			<label>确认密码：<input type="password" name="confirm_pw"/><span></span></label>
 			<label>验证码：<input name="vcode" type="text"  /><span>*请输入下方验证码</span></label>
 			<img class="vcode" src="show_code.php" />
 			<div style="clear:both;"></div>
